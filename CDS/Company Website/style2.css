@@ -1,0 +1,29 @@
+/* style.css */
+.left-column {
+    background-color: #f8f8f8; /* Purple background */
+    color: white;
+}
+
+.right-column {
+    background-color: #6f42c1; /* White background */
+    padding: 30px;
+}
+
+.logo {
+    max-width: max-content;/* Adjust the size of the logo */
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px; /* Set maximum width for the form */
+    padding: 20px;
+    background-color: #f8f8f8;
+    
+}
+
+.btn-block {
+    width: 100%;
+    background-color: #6f42c1;
+    color: #6f42c1;
+    border-color: #6f42c1;
+}

@@ -1,0 +1,103 @@
+.hero-section {
+    background-image: url('images/back-img.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact-form {
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-custom {
+    background-color: #ff8100;
+    color: white;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #e57000;
+}
+  @media (max-width: 768px) {
+    .arrows {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .text {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .arrows {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .text {
+      font-size: 12px;
+    }
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #FF6600; 
+}
+
+
+.navbar li::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FF6600; 
+    transition: width 0.3s ease;
+}
+
+.navbar li:hover::after {
+    width: 100%;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Fonts/Sansation-Regular.ttf);
+}
+* {
+    font-family: myFirstFont;
+}

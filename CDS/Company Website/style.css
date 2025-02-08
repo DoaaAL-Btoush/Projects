@@ -1,0 +1,40 @@
+/* style.css */
+.bg-6f42c1{
+    background-color: #6f42c1;
+}
+.color-fff{
+    color: #fff;
+}
+.h-90per{
+    height: 90%;
+}
+.white-background {
+    background-color: #ffffff;
+}
+body{
+    overflow: hidden;
+}
+.logo {
+    max-width: 100px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}/* .font-14px a class for a lable instead of using h1, h2 etc */
+
+h2 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-brand {
+    max-width: 100px;
+}

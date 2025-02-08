@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; 
+}
+
+.container-fluid {
+    height: auto; 
+}
+
+.content-box {
+    background-color: #ffffff; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    width: 100%; 
+    max-width: 1000px; 
+    padding: 40px; 
+    overflow-x: auto; 
+}
+
+.table-responsive {
+    overflow-x: auto; 
+}
+
+h2 {
+    color: #343a40; 
+    margin-bottom: 20px; 
+}
+
+.table {
+    width: 100%; 
+    margin-bottom: 1rem; 
+}
+
+.table th, .table td {
+    text-align: left; 
+}
+
+.btn {
+    border-radius: 5px; 
+}
